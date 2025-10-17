@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile-picture",
+      "description": "A professional headshot of a person smiling.",
+      "imageUrl": "https://picsum.photos/seed/profile/400/400",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "project-1",
+      "description": "A screenshot of a modern web application dashboard.",
+      "imageUrl": "https://picsum.photos/seed/project1/600/400",
+      "imageHint": "web application"
+    },
+    {
+      "id": "project-2",
+      "description": "A mobile app interface design shown on a smartphone.",
+      "imageUrl": "https://picsum.photos/seed/project2/600/400",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project-3",
+      "description": "An abstract data visualization with connected nodes.",
+      "imageUrl": "https://picsum.photos/seed/project3/600/400",
+      "imageHint": "data visualization"
+    }
+  ]
 }

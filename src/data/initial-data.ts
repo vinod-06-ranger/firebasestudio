@@ -1,0 +1,92 @@
+import type { PortfolioData } from '@/types';
+
+export const initialData: PortfolioData = {
+  profile: {
+    name: "Alex Doe",
+    title: "Senior Full-Stack Developer",
+    bio: "A passionate and creative full-stack developer with over 8 years of experience in building scalable web applications. I specialize in the MERN stack and have a strong interest in DevOps and cloud architecture. My goal is to leverage technology to solve real-world problems and create meaningful user experiences.",
+    headshotUrl: "https://picsum.photos/seed/profile/400/400",
+    contact: {
+      email: "alex.doe@example.com",
+      phone: "+1 (555) 123-4567",
+      linkedin: "https://linkedin.com/in/alexdoe",
+      github: "https://github.com/alexdoe",
+      website: "https://alexdoe.dev",
+    },
+  },
+  projects: [
+    {
+      id: "proj-1",
+      title: "E-Commerce Platform 'ShopSphere'",
+      description: "Developed a full-featured e-commerce platform using React, Node.js, and MongoDB. Implemented features like product catalog, shopping cart, user authentication with JWT, and payment gateway integration with Stripe. The frontend was built with Next.js for server-side rendering and performance.",
+      imageUrl: "https://picsum.photos/seed/project1/600/400",
+      imageHint: "web application",
+      demoUrl: "#",
+      repoUrl: "#",
+    },
+    {
+      id: "proj-2",
+      title: "Mobile Fitness Tracker 'FitTrack'",
+      description: "Created a cross-platform mobile app with React Native and Firebase. It allows users to track their workouts, set fitness goals, and view progress charts. Utilized Firebase for real-time database, authentication, and cloud functions.",
+      imageUrl: "https://picsum.photos/seed/project2/600/400",
+      imageHint: "mobile app",
+      demoUrl: "#",
+      repoUrl: "#",
+    },
+    {
+      id: "proj-3",
+      title: "Data Visualization Dashboard",
+      description: "Built an interactive data visualization dashboard with D3.js and Angular. The dashboard displays complex financial data through a series of charts and graphs, helping analysts identify trends. The backend is a Python Flask API that serves processed data.",
+      imageUrl: "https://picsum.photos/seed/project3/600/400",
+      imageHint: "data visualization",
+      demoUrl: "#",
+      repoUrl: "#",
+    },
+  ],
+  skills: [
+    { id: "skill-1", name: "JavaScript", category: "Language" },
+    { id: "skill-2", name: "TypeScript", category: "Language" },
+    { id: "skill-3", name: "Python", category: "Language" },
+    { id: "skill-4", name: "React", category: "Framework" },
+    { id: "skill-5", name: "Node.js", category: "Framework" },
+    { id: "skill-6", name: "Next.js", category: "Framework" },
+    { id: "skill-7", name: "Angular", category: "Framework" },
+    { id: "skill-8", name: "Docker", category: "Tool" },
+    { id: "skill-9", name: "Git", category: "Tool" },
+    { id: "skill-10", name: "MongoDB", category: "Tool" },
+    { id: "skill-11", name: "AWS", category: "Platform" },
+    { id: "skill-12", name: "Firebase", category: "Platform" },
+  ],
+  education: [
+    {
+      id: "edu-1",
+      institution: "State University",
+      degree: "Master of Science",
+      field: "Computer Science",
+      startYear: "2014",
+      endYear: "2016",
+    },
+    {
+      id: "edu-2",
+      institution: "Tech Institute",
+      degree: "Bachelor of Science",
+      field: "Software Engineering",
+      startYear: "2010",
+      endYear: "2014",
+    },
+  ],
+  achievements: [
+    {
+      id: "ach-1",
+      title: "Certified AWS Solutions Architect",
+      description: "Achieved certification demonstrating expertise in designing and deploying scalable, highly available, and fault-tolerant systems on AWS.",
+      year: "2021",
+    },
+    {
+      id: "ach-2",
+      title: "Hackathon Winner - 'Code for Good'",
+      description: "Led a team to win first place by developing a prototype for a non-profit organization management tool.",
+      year: "2019",
+    },
+  ],
+};
