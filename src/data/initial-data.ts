@@ -57,6 +57,12 @@ export const initialData: PortfolioData = {
     { id: "skill-11", name: "AWS", category: "Platform" },
     { id: "skill-12", name: "Firebase", category: "Platform" },
   ],
+  strengths: [
+    { id: "str-1", name: "Problem Solving", category: "Programming" },
+    { id: "str-2", name: "Team Collaboration", category: "Personal" },
+    { id: "str-3", name: "Adaptability", category: "Personal" },
+    { id: "str-4", name: "Data Structures & Algorithms", category: "Programming" },
+  ],
   education: [
     {
       id: "edu-1",

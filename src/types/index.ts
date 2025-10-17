@@ -30,6 +30,12 @@ export type Skill = {
   category: 'Language' | 'Framework' | 'Tool' | 'Platform' | 'Other';
 };
 
+export type Strength = {
+  id: string;
+  name: string;
+  category: 'Personal' | 'Programming';
+};
+
 export type Education = {
   id: string;
   institution: string;
@@ -50,6 +56,7 @@ export type PortfolioData = {
   profile: Profile;
   projects: Project[];
   skills: Skill[];
+  strengths: Strength[];
   education: Education[];
   achievements: Achievement[];
 };

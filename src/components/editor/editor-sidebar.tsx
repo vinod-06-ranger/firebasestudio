@@ -9,6 +9,7 @@ import { Loader2, Sparkles } from 'lucide-react';
 import { ProfileForm } from './forms/profile-form';
 import { ProjectsForm } from './forms/projects-form';
 import { SkillsForm } from './forms/skills-form';
+import { StrengthsForm } from './forms/strengths-form';
 import { EducationForm } from './forms/education-form';
 import { AchievementsForm } from './forms/achievements-form';
 import { ThemeSelector } from './theme-selector';
@@ -34,6 +35,7 @@ export function EditorSidebar({ data, setData, onSummarize, isSummarizing, setTh
           <ProfileForm data={data} setData={setData} />
           <ProjectsForm data={data} setData={setData} />
           <SkillsForm data={data} setData={setData} />
+          <StrengthsForm data={data} setData={setData} />
           <EducationForm data={data} setData={setData} />
           <AchievementsForm data={data} setData={setData} />
         </Accordion>

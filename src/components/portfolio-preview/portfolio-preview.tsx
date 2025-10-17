@@ -3,6 +3,7 @@ import { HeroSection } from './hero-section';
 import { AboutSection } from './about-section';
 import { ProjectsSection } from './projects-section';
 import { SkillsSection } from './skills-section';
+import { StrengthsSection } from './strengths-section';
 import { ExperienceSection } from './experience-section';
 import { Separator } from '../ui/separator';
 
@@ -23,6 +24,7 @@ export function PortfolioPreview({ data, techSummary }: PortfolioPreviewProps) {
         </div>
         <div className="space-y-12">
           <SkillsSection skills={data.skills} />
+          <StrengthsSection strengths={data.strengths} />
           <ExperienceSection education={data.education} achievements={data.achievements} />
         </div>
       </div>
