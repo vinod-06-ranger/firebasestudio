@@ -2,16 +2,16 @@ import type { PortfolioData } from '@/types';
 
 export const initialData: PortfolioData = {
   profile: {
-    name: "Alex Doe",
+    name: "K. Vinod Kumar",
     title: "Senior Full-Stack Developer",
     bio: "A passionate and creative full-stack developer with over 8 years of experience in building scalable web applications. I specialize in the MERN stack and have a strong interest in DevOps and cloud architecture. My goal is to leverage technology to solve real-world problems and create meaningful user experiences.",
     headshotUrl: "https://picsum.photos/seed/profile/400/400",
     contact: {
-      email: "alex.doe@example.com",
-      phone: "+1 (555) 123-4567",
-      linkedin: "https://linkedin.com/in/alexdoe",
-      github: "https://github.com/alexdoe",
-      website: "https://alexdoe.dev",
+      email: "k.vinod.kumar@example.com",
+      phone: "+91 98765 43210",
+      linkedin: "https://linkedin.com/in/kvinodkumar",
+      github: "https://github.com/kvinodkumar",
+      website: "https://kvinodkumar.dev",
     },
   },
   projects: [
