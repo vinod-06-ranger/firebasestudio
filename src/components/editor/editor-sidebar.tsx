@@ -30,7 +30,7 @@ export function EditorSidebar({ data, setData, onSummarize, isSummarizing, setTh
         <h2 className="text-lg font-semibold">Editor Controls</h2>
       </SidebarHeader>
       <SidebarContent>
-        <Accordion type="single" collapsible defaultValue="item-1" className="w-full">
+        <Accordion type="multiple" defaultValue={['item-1', 'item-3', 'item-3b', 'item-4', 'item-5']} className="w-full">
           <ThemeSelector setTheme={setTheme} currentTheme={currentTheme} />
           <ProfileForm data={data} setData={setData} />
           <ProjectsForm data={data} setData={setData} />
